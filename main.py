@@ -7,7 +7,7 @@ root = os.getcwd()
 
 def init_prog():
     if os.path.exists(root):
-        dload.save_unzip("https://github.com/JustKurayy/azelea-test/releases/download/V1.0.2/azelea-template.zip", root)
+        dload.save_unzip("https://github.com/JustKurayy/azelea-test/releases/download/V1.0.2/azelea-template.zip", root, True)
 
 def main():
     match sys.argv[1]:
